@@ -7,6 +7,8 @@ import Counter from './pages/Counter';
 import Calculator from './pages/Calculator';
 import XLogin  from './pages/XLogin';
 import LocationSelector  from './pages/LocationSelector';
+import CountryListWithFilter  from './pages/CountryListWithFilter';
+import CounterClass  from './pages/CounterClass';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
         <Route path="calculator" element={<Calculator />}/> 
         <Route path="xlogin" element={<XLogin />}/> 
         <Route path="locationselector" element={<LocationSelector />}/> 
+        <Route path="countryListWithFilter" element={<CountryListWithFilter />}/> 
+        <Route path="CounterClass" element={<CounterClass />}/> 
+
       </Routes>
     </BrowserRouter>
   );
