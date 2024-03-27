@@ -23,3 +23,27 @@
   gap: 2;
 
 }
+.calculator-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.calculator-container .buttons-container button{
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  
+}
+.calculator-container input{
+  width: 15rem;
+  height: 3rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: end;
+}

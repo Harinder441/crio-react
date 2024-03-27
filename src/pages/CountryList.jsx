@@ -24,9 +24,9 @@ const CountryList = () => {
     <div>
       {error && <div>Error: {error}</div>}
   
-      <div class="country-container">
+      <div className="country-container">
         {countries.map(country => (
-          <div key={country.cca3} class="country-item">
+          <div key={country.cca3} className="country-item">
             <img src={country.flags.png} alt={`Flag of ${country.name.common}`} />
             <h5>{country.name.common}</h5>
             
