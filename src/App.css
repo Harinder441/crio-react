@@ -23,12 +23,16 @@
   gap: 2;
 
 }
-.calculator-container{
+.calculator-container,.xlogin-container{
   display:flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+.xlogin-form{
+  text-align: center;
+}
+
 .calculator-container .buttons-container button{
   width: 4rem;
   height: 4rem;

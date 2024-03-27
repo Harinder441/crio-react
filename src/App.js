@@ -5,6 +5,7 @@ import Stopwatch from './pages/Stopwatch';
 import FullNameForm from './pages/FullNameForm';
 import Counter from './pages/Counter';
 import Calculator from './pages/Calculator';
+import XLogin  from './pages/XLogin';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="fullnameform" element={<FullNameForm />}/> 
         <Route path="counter" element={<Counter />}/> 
         <Route path="calculator" element={<Calculator />}/> 
+        <Route path="xlogin" element={<XLogin />}/> 
       </Routes>
     </BrowserRouter>
   );
