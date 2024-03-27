@@ -47,7 +47,7 @@ const CountryListWithFilter = () => {
         {filteredCountries.map(country => (
           <div key={country.cca3} className="countryCard country-item">
             <img src={country.flags.png} alt={`Flag of ${country.name.common}`} />
-            <h5>{country.name.common}</h5>
+            <h2>{country.name.common}</h2>
           </div>
         ))}
       </div>
