@@ -16,6 +16,7 @@ const Pagination = () => {
         setTotalPages(Math.ceil(data.length / 10));
       } catch (error) {
         setError('Failed to fetch data');
+        alert("failed to fetch data");
         console.error(error);
       }
     };
