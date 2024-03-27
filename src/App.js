@@ -3,6 +3,7 @@ import './App.css';
 import CountryList from './pages/CountryList';
 import Stopwatch from './pages/Stopwatch';
 import FullNameForm from './pages/FullNameForm';
+import Counter from './pages/Counter';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="countrylist" element={<CountryList />}/> 
         <Route path="stopwatch" element={<Stopwatch />}/> 
         <Route path="fullnameform" element={<FullNameForm />}/> 
+        <Route path="counter" element={<Counter />}/> 
       </Routes>
     </BrowserRouter>
   );
