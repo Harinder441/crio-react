@@ -17,8 +17,9 @@ const Calculator = () => {
     try {
       if (input === "") {
         setOutput("Error");
+      }else{
+          setOutput(eval(input));
       }
-      setOutput(eval(input));
     } catch (error) {
       setOutput("Error");
     }
