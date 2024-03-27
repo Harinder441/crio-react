@@ -6,6 +6,7 @@ import FullNameForm from './pages/FullNameForm';
 import Counter from './pages/Counter';
 import Calculator from './pages/Calculator';
 import XLogin  from './pages/XLogin';
+import LocationSelector  from './pages/LocationSelector';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="counter" element={<Counter />}/> 
         <Route path="calculator" element={<Calculator />}/> 
         <Route path="xlogin" element={<XLogin />}/> 
+        <Route path="locationselector" element={<LocationSelector />}/> 
       </Routes>
     </BrowserRouter>
   );
