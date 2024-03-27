@@ -9,6 +9,7 @@ import XLogin  from './pages/XLogin';
 import LocationSelector  from './pages/LocationSelector';
 import CountryListWithFilter  from './pages/CountryListWithFilter';
 import CounterClass  from './pages/CounterClass';
+import Pagination  from './pages/Pagination';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="locationselector" element={<LocationSelector />}/> 
         <Route path="countryListWithFilter" element={<CountryListWithFilter />}/> 
         <Route path="CounterClass" element={<CounterClass />}/> 
+        <Route path="pagination" element={<Pagination />}/> 
 
       </Routes>
     </BrowserRouter>

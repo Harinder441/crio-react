@@ -23,7 +23,7 @@
   gap: 2;
 
 }
-.calculator-container,.xlogin-container,.location-selector-container{
+.calculator-container,.xlogin-container,.location-selector-container,.pagination-container {
   display:flex;
   justify-content: center;
   align-items: center;
@@ -67,8 +67,34 @@
   border-radius: 0.2rem;
   width: 50%;
 
-  
+
 }
 .country-list-filter{
   text-align: center;
+}
+
+.pagination-container table{
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 0.2rem;
+  width: 80%;
+}
+.pagination-container table thead{
+
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+
+}
+.pagination-container table th{
+  text-align: start;
+}
+.pagination-container button{
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+
 }
