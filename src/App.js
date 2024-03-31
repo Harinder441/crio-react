@@ -14,6 +14,7 @@ import WeatherApp  from './pages/WeatherApp';
 import SpellCheckApp  from './pages/SpellCheckApp';
 import XDictionary  from './pages/XDictionary';
 import XModal  from './pages/XModal';
+import XTable  from './pages/XTable';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="spellCheckApp" element={<SpellCheckApp />}/> 
         <Route path="xdictionary" element={<XDictionary />}/> 
         <Route path="xmodal" element={<XModal/>}/> 
+        <Route path="xTable" element={<XTable/>}/> 
 
       </Routes>
     </BrowserRouter>
