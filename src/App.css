@@ -148,3 +148,14 @@
 .modal button {
   margin-top: 10px;
 }
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem;
+}
+.nav li{
+  list-style: none;
+  cursor: pointer;
+}
