@@ -31,7 +31,8 @@ const XDictionary = () => {
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <button onClick={handleSearch}>Search</button>
-     <p>Definition: {searchResult || "Word not found in the dictionary."}</p>
+      <h4>Definition:</h4>
+     <p>{searchResult || "Word not found in the dictionary."}</p>
     </div>
   );
 };
